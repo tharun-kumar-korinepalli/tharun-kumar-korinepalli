@@ -197,7 +197,6 @@ Teaching neural networks to solve combinatorial puzzles across different archite
 <div align="center">
 
 <img height="180em" src="https://github-readme-stats.vercel.app/api?username=tharun-kumar-22&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true" />
-<img height="180em" src="https://streak-stats.demolab.com/?user=tharun-kumar-22&theme=tokyonight&hide_border=true&border_radius=8" />
 
 <br/>
 
