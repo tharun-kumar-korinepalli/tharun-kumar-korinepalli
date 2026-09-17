@@ -1,153 +1,123 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0c0c0c,50:166534,100:4ade80&height=200&section=header&text=Tharun%20Kumar&fontSize=52&fontColor=ffffff&fontAlignY=34&animation=fadeIn&desc=Turning%20research%20into%20systems%20that%20actually%20ship&descAlignY=54&descSize=16" />
+<!--
+  ⚠️ BEFORE COMMITTING — edit these:
+  1. Repo slugs in the "Featured Work" table (marked  ← CHECK SLUG)
+  2. LinkedIn URL on line 14
+  3. Delete any project row that isn't public yet
+-->
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=JetBrains+Mono&weight=500&size=22&pause=1200&color=4ADE80&center=true&vCenter=true&width=680&lines=Mechanical+engineer+who+went+looking+for+intelligence.;Now+I+put+neural+networks+on+factory+floors.;LLMs+that+answer+from+your+documents%2C+not+the+internet.;Vision+models+small+enough+to+live+on+a+Jetson." alt="Typing SVG" /></a>
+  <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=600&size=26&pause=1000&color=00C2A8&center=true&vCenter=true&width=650&lines=Hi+%F0%9F%91%8B%2C+I'm+Tharun;AI+Research+Associate+%40+TTZ+Kitzingen;NLP+%7C+LLMs+%7C+Edge+AI+%7C+Robotics;Making+Machines+Read+Between+the+Lines" alt="Typing SVG" /></a>
+
+  <br/>
+
+  <p>
+    <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-SLUG"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+    <a href="https://medium.com/@korinetharunkumarpalli"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
+    <a href="https://www.thws.de/"><img src="https://img.shields.io/badge/THWS-C8102E?style=for-the-badge&logo=googlescholar&logoColor=white" alt="THWS"/></a>
+    <a href="https://github.com/tharun-kumar-korinepalli"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
+  </p>
+
+</div>
+
+---
+
+## About Me
+
+<img align="right" width="240" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif"/>
+
+I'm an **AI Research Associate Scientist** (*Wissenschaftlicher Mitarbeiter*) at the **Technologietransferzentrum Kitzingen**, an applied research centre affiliated with **THWS**, based in Bavaria 🇩🇪. I work where language models meet the factory floor — turning research ideas into systems that survive contact with real industrial data.
+
+- 🔬 Researching **compositional contradiction detection** in multilingual technical documentation
+- 🤖 Writing a survey on **LLMs applied to robotics** and building **knowledge-graph-grounded safety analysis** for human-robot collaboration
+- ⚡ Deploying **quantised vision models on edge hardware** (TensorRT INT8 · Jetson Orin Nano)
+- 🖥️ Running the lab's **GPU + Proxmox infrastructure** so a dozen researchers don't have to think about it
+- ✍️ Writing about AI on [Medium](https://medium.com/@korinetharunkumarpalli)
+- 🎓 Currently pursuing a **PhD** in NLP / applied AI
+
+<div>
+  <img src="https://img.shields.io/badge/Focus-NLP_&_Contradiction_Detection-00C2A8?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Focus-LLMs_for_Robotics-3B82F6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Focus-Edge_AI_Deployment-8B5CF6?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Focus-Knowledge_Graphs_&_RAG-F59E0B?style=flat-square"/>
+</div>
+
+---
+
+## Featured Work
+
+| Project | What it does | Stack |
+|---|---|---|
+| **[CompContra](https://github.com/tharun-kumar-korinepalli/CompContra)** ← CHECK SLUG | Detects *compositional* contradictions — conflicts that only appear when several statements are combined. Fine-tuned DeBERTa reaching **0.961 out-of-distribution F1**. | DeBERTa · PyTorch · HF |
+| **[DocCheck](https://github.com/tharun-kumar-korinepalli/DocCheck)** ← CHECK SLUG | Multilingual consistency finder for German ↔ English technical manuals, combining NLI, RAG and knowledge-graph retrieval. | NLI · RAG · Neo4j |
+| **[ai-news-mailer](https://github.com/tharun-kumar-korinepalli/ai-news-mailer)** | Automated daily AI-news digest — scrapes, summarises and ships HTML email to the research team every morning. | Python · LLMs · SMTP |
+| **[BeetleSee](https://github.com/tharun-kumar-korinepalli/BeetleSee)** ← CHECK SLUG | Vision pipeline for automated beetle detection in stored-grain samples, built with an industry partner. | OpenCV · YOLO |
+| **[Grain Defect Detection](https://github.com/tharun-kumar-korinepalli/grain-defect-detection)** ← CHECK SLUG | Master's thesis: real-time wheat-grain defect classification via TensorRT INT8 quantisation on Jetson Orin Nano. | TensorRT · ONNX · Jetson |
+
+---
+
+## Tech Stack
+
+<div align="center">
+
+**Core**
+
+<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv,cpp&perline=6" />
+
+<img src="https://img.shields.io/badge/Hugging_Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
+<img src="https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white"/>
+<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
+<img src="https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white"/>
+
+**Backend & Data**
+
+<img src="https://skillicons.dev/icons?i=fastapi,flask,postgres,mongodb,redis,bash&perline=6" />
+
+<img src="https://img.shields.io/badge/Neo4j-4581C3?style=for-the-badge&logo=neo4j&logoColor=white"/>
+<img src="https://img.shields.io/badge/Weights_&_Biases-FFBE00?style=for-the-badge&logo=weightsandbiases&logoColor=black"/>
+
+**Infrastructure**
+
+<img src="https://skillicons.dev/icons?i=docker,linux,git,github,nginx,grafana&perline=6" />
+
+<img src="https://img.shields.io/badge/Proxmox-E57000?style=for-the-badge&logo=proxmox&logoColor=white"/>
+<img src="https://img.shields.io/badge/NVIDIA_CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white"/>
+<img src="https://img.shields.io/badge/LaTeX-008080?style=for-the-badge&logo=latex&logoColor=white"/>
+
+</div>
+
+---
+
+## GitHub Stats
+
+<div align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=tharun-kumar-korinepalli&show_icons=true&theme=tokyonight&hide_border=true&border_radius=8&count_private=true&include_all_commits=true" />
+<img height="170em" src="https://streak-stats.demolab.com/?user=tharun-kumar-korinepalli&theme=tokyonight&hide_border=true&border_radius=8" />
 
 <br/>
 
-<a href="https://www.linkedin.com/in/tharun-kumar-korine-palli/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
-<a href="https://medium.com/@korinetharunkumarpalli"><img src="https://img.shields.io/badge/Medium-000000?style=for-the-badge&logo=medium&logoColor=white" alt="Medium"/></a>
-<a href="mailto:korinetharunkumarpalli@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-<a href="https://ttz-kt.thws.de/"><img src="https://img.shields.io/badge/TTZ_Kitzingen-4ADE80?style=for-the-badge&logo=googlescholar&logoColor=black" alt="TTZ"/></a>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharun-kumar-korinepalli&layout=compact&theme=tokyonight&hide_border=true&border_radius=8&langs_count=8&exclude_repo=&hide=jupyter%20notebook,html,css,tex" />
 
 </div>
 
 ---
 
-### `whoami`
+## Latest Writing
 
-```python
-class Tharun:
-    """AI Researcher, TTZ Kitzingen — a THWS technology transfer centre."""
+<!-- BLOG-POST-LIST:START -->
+<!-- Posts auto-fill here once you add the workflow — see SETUP.md -->
+<!-- BLOG-POST-LIST:END -->
 
-    location   = "Würzburg, Germany 🇩🇪"
-    education  = "M.Sc. Artificial Intelligence, THWS"
-    began_as   = "Mechanical Engineer (B.Tech, Gold Medal)"
-    speaks     = ["Telugu", "English", "German (…allegedly)"]
-
-    def working_on(self):
-        return {
-            "llm":    "RAG over messy industrial documentation",
-            "vision": "quality-control detection on the line",
-            "edge":   "TensorRT until it fits on a Jetson",
-        }
-
-    @property
-    def thesis(self):
-        return "A model that can't run in production is just a hypothesis."
-```
-
----
-
-### The long way round
-
-I didn't start in AI. I started with lathes and tolerances, and that turns out to be
-the useful part — I think about latency, memory and heat before I think about accuracy.
-
-```
-   ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
-   │  MECHANICAL  │ ───▶ │   MACHINE    │ ───▶ │     EDGE     │
-   │ ENGINEERING  │      │   LEARNING   │      │  DEPLOYMENT  │
-   └──────────────┘      └──────────────┘      └──────────────┘
-    Diploma → B.Tech       M.Sc. @ THWS         TTZ Kitzingen
-      2015 – 2021           2023 – 2025            2025 → now
-     "how things move"    "how things learn"   "how things survive
-                                                  the factory floor"
-```
-
-<div align="center">
-<img src="https://img.shields.io/badge/LLMs_%26_RAG-4ADE80?style=flat-square&labelColor=0c0c0c" />
-<img src="https://img.shields.io/badge/Computer_Vision-818CF8?style=flat-square&labelColor=0c0c0c" />
-<img src="https://img.shields.io/badge/Edge_Inference-F472B6?style=flat-square&labelColor=0c0c0c" />
-<img src="https://img.shields.io/badge/Industrial_AI-F59E0B?style=flat-square&labelColor=0c0c0c" />
-</div>
-
----
-
-### Toolbox
-
-<table>
-<tr><td><b>Modelling</b></td><td>
-<img src="https://skillicons.dev/icons?i=python,pytorch,tensorflow,sklearn,opencv" height="42" />
-<img src="https://cdn.simpleicons.org/huggingface/FFD21E" height="42" />
-</td></tr>
-<tr><td><b>LLM&nbsp;&amp;&nbsp;serving</b></td><td>
-<img src="https://cdn.simpleicons.org/langchain/4ADE80" height="42" />
-<img src="https://skillicons.dev/icons?i=fastapi" height="42" />
-</td></tr>
-<tr><td><b>Edge</b></td><td>
-<img src="https://cdn.simpleicons.org/nvidia/76B900" height="42" />
-<img src="https://skillicons.dev/icons?i=cpp,docker,linux,bash" height="42" />
-</td></tr>
-<tr><td><b>Daily&nbsp;drivers</b></td><td>
-<img src="https://cdn.simpleicons.org/numpy/4DABCF" height="42" />
-<img src="https://cdn.simpleicons.org/pandas/E70488" height="42" />
-<img src="https://cdn.simpleicons.org/jupyter/F37626" height="42" />
-<img src="https://skillicons.dev/icons?i=git,latex,vscode" height="42" />
-</td></tr>
-</table>
-
-<sub>NVIDIA badge covers TAO Toolkit, TensorRT and Jetson — three things, one logo, sorry.</sub>
-
----
-
-### Things I built
-
-| | |
-|---|---|
-| **🔍 Detection on the line**<br/>Quality-control models trained with NVIDIA TAO, quantised and squeezed through TensorRT until they hit frame rate on a Jetson. The accuracy was the easy half. | **📹 [Multi-camera tracking](https://github.com/tharun-kumar-22/camera_based_person_detection)**<br/>Following one person across cameras that never agree on lighting, angle or colour. Re-identification is where it gets interesting. |
-| **🦴 [Motion forecasting](https://github.com/tharun-kumar-22/Future-Pose-Predictive-Modeling-of-Human-Motion-Dynamics-using-Skeleton-Data)**<br/>Predicting where a body goes next from skeleton data alone. Recurrent models, surprisingly small, surprisingly good. | **🧩 [Sudoku by gradient descent](https://github.com/tharun-kumar-22/Artificial-Neural-Networks---Suduko-Solver)**<br/>Teaching a network to solve a problem that has a perfectly good algorithm. Pointless, instructive, fun. |
-
----
-
-### Things I wrote
-
-<table>
-<tr>
-<td width="50%">
-
-📐 **[From RNNs to Attention](https://medium.com/@korinetharunkumarpalli/from-rnns-to-attention-bahdanau-attention-explained-9314b151d24e)**
-<sub>Bahdanau attention, derived slowly enough to actually follow.</sub>
-
-⚡ **[Fast inference on edge devices](https://medium.com/@korinetharunkumarpalli/optimizing-deep-learning-models-for-fast-inference-on-edge-devices-1c0e853ddf21)**
-<sub>What you give up, and what you get back.</sub>
-
-</td>
-<td width="50%">
-
-🛠️ **[The NVIDIA TAO Toolkit](https://medium.com/@korinetharunkumarpalli/nvidia-tao-toolkit-27dfcc2b4e8a)**
-<sub>A complete guide, written because I couldn't find one.</sub>
-
-🔁 **[xLSTM](https://medium.com/@korinetharunkumarpalli/xlstm-reinventing-recurrent-networks-for-the-era-of-large-language-models-e2243b774dc5)**
-<sub>Recurrence returns, with something to prove.</sub>
-
-</td>
-</tr>
-</table>
-
----
-
-### The numbers
-
-<div align="center">
-
-<img height="165em" src="https://github-readme-stats.vercel.app/api?username=tharun-kumar-22&show_icons=true&theme=tokyonight&hide_border=true&border_radius=10&icon_color=4ADE80&title_color=4ADE80&count_private=true" />
-<img height="165em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=tharun-kumar-22&layout=compact&theme=tokyonight&hide_border=true&border_radius=10&title_color=4ADE80&langs_count=8" />
-
-<img width="94%" src="https://github-readme-activity-graph.vercel.app/graph?username=tharun-kumar-22&theme=tokyo-night&hide_border=true&radius=10&color=4ADE80&line=4ADE80&point=FFFFFF&area=true&area_color=166534" />
-
-</div>
+📖 More at [medium.com/@korinetharunkumarpalli](https://medium.com/@korinetharunkumarpalli)
 
 ---
 
 <div align="center">
 
-**Working on something at the awkward edge of research and production?**
-That's my favourite place to be — [say hello](mailto:korinetharunkumarpalli@gmail.com).
+<img src="https://komarev.com/ghpvc/?username=tharun-kumar-korinepalli&style=flat-square&color=00C2A8" alt="Profile Views" />
 
-<img src="https://komarev.com/ghpvc/?username=tharun-kumar-22&style=flat-square&color=4ADE80&label=visitors" alt="Profile Views" />
+**Open to research collaboration in NLP, contradiction detection and applied AI — feel free to reach out.**
 
 </div>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:4ade80,50:166534,100:0c0c0c&height=120&section=footer" />
